@@ -78,7 +78,6 @@ public class StatementPrinter {
         return result;
     }
 
-
     private Play getPlay(Performance performance) {
         return plays.get(performance.getPlayID());
     }
